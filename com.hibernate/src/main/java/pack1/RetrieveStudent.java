@@ -15,11 +15,6 @@ public class RetrieveStudent {
 		
 		EntityManager entityManager = entityManagerFactory.createEntityManager();
 		
-		
-EntityTransaction entityTransaction = entityManager.getTransaction();
-
-entityTransaction.begin();
-
 Student student = entityManager.find(Student.class, 2);
 
 System.out.println(student.getName());
