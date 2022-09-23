@@ -19,7 +19,7 @@ Student student = entityManager.find(Student.class, 2);
 
 System.out.println(student.getName());
 System.out.println(student.getAddress());
-
+ 
 	}
 
 }
