@@ -28,6 +28,8 @@ entityManager.remove(student);
 entityTransaction.commit();
 
 
+
+
 	}
 
 }

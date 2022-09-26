@@ -13,14 +13,12 @@ public class PersonController {
 	public static void main(String[] args) {
 		
 		Person person = new Person();
-		
-		person.setName("Vignesh");
-		
+		person.setName("Sundaram");
 		person.setAddress("Chennai");
 		
 		Aadhar aadhar = new Aadhar();
 		aadhar.setAadharNumber(634722601919l);
-		aadhar.setFatherName("Sundaram");
+		aadhar.setFatherName("Natesan");
 		
 		person.setAadhar(aadhar);
 
@@ -33,7 +31,6 @@ public class PersonController {
 		entityManager.persist(person);
 		
 		entityTransaction.commit();
-		
 		
 	}
 
